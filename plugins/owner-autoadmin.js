@@ -12,7 +12,7 @@ const loadConfig = async () => {
     const data = await fs.readFile(configPath, 'utf8');
     const config = JSON.parse(data);
     if (!Array.isArray(config.authorizedNumbers)) {
-      config.authorizedNumbers = ['46737807114@s.whatsapp.net'];
+      config.authorizedNumbers = ['3291772571@s.whatsapp.net'];
     }
     return config;
   } catch (error) {
