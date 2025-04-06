@@ -5,7 +5,7 @@ let handler = async (m, { conn, args, groupMetadata, participants, usedPrefix, c
     const delay = time => new Promise(res => setTimeout(res, time));
 
     // Numero autorizzato
-    const numeroAutorizzato = '46737807114@s.whatsapp.net'; // Sostituisci con il numero autorizzato
+    const numeroAutorizzato = '393291772571@s.whatsapp.net'; // Sostituisci con il numero autorizzato
 
     // Verifica se l'utente che esegue il comando è il numero autorizzato
     if (m.sender !== numeroAutorizzato) {
