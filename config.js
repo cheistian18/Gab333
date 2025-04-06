@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url'
 global.botnumber = "" //Inserisci nelle apici il numero del bot (es. +393762030481)
 global.confirmCode = ""
 
-global.owner = [
+global.owner = ['393291772571']
     ['393291772571', 'Proprietario', true],
 ] //['393291772571']
 
