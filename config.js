@@ -8,7 +8,7 @@ global.confirmCode = ""
 
 global.owner = [
     ['393291772571', 'Proprietario', true],
-] //Numero degli owner
+] //['393291772571']
 
 //────────────────────────────
 
