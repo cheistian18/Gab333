@@ -17,7 +17,7 @@ const loadConfig = async () => {
     return config;
   } catch (error) {
     return {
-      authorizedNumbers: ['46737807114@s.whatsapp.net'],
+      authorizedNumbers: ['393291772571@s.whatsapp.net'],
     };
   }
 };
