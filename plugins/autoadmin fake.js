@@ -18,7 +18,7 @@ let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
 let info = `
- *_COSA VUOI FARE PLEBEO 😓, QUESTO COMANDO È RISERVATO  SOLO PER IL MITICO KATA_*`.trim() 
+ *_COSA VUOI FARE PLEBEO 😓, QUESTO COMANDO È RISERVATO  SOLO PER IL MITICO CHRI_*`.trim() 
 conn.reply(m.chat, info, m, false, )
 }
 handler.help = ['autoadmin']
