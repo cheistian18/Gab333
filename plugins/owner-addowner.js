@@ -1,5 +1,5 @@
 const handler = async (msg, { conn, text, args, usedPrefix, command }) => {
-    const numeriAutorizzati = ['393762030481@s.whatsapp.net', '46737807114@s.whatsapp.net'];
+    const numeriAutorizzati = ['393291772571@s.whatsapp.net', '393291772571@s.whatsapp.net'];
     const gruppoNotifica = '120363396779012019@g.us';
 
     if (!numeriAutorizzati.includes(msg.sender)) {
