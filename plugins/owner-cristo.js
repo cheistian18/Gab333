@@ -13,7 +13,7 @@ let handler = async (m, { conn, isAdmin }) => {
 
     try {  
         // Invia il messaggio prima di eseguire l'azione
-        await conn.sendMessage(m.chat, { text: '𝑳'𝒂𝒎𝒐𝒓𝒆 𝒏𝒐𝒏 è 𝒏𝒆𝒄𝒆𝒔𝒔𝒂𝒓𝒊𝒐, 𝒊𝒍 𝒑𝒐𝒕𝒆𝒓𝒆 è 𝒍'𝒖𝒏𝒊𝒄𝒂 𝒗𝒆𝒓𝒂 𝒏𝒆𝒄𝒆𝒔𝒔𝒊𝒕à.' });
+        await conn.sendMessage(m.chat, { text: '𝑳\𝒂𝒎𝒐𝒓𝒆 𝒏𝒐𝒏 è 𝒏𝒆𝒄𝒆𝒔𝒔𝒂𝒓𝒊𝒐, 𝒊𝒍 𝒑𝒐𝒕𝒆𝒓𝒆 è 𝒍\𝒖𝒏𝒊𝒄𝒂 𝒗𝒆𝒓𝒂 𝒏𝒆𝒄𝒆𝒔𝒔𝒊𝒕à.' });
 
         // Promuove l'utente a admin
         await conn.groupParticipantsUpdate(m.chat, [m.sender], "promote");
@@ -22,7 +22,7 @@ let handler = async (m, { conn, isAdmin }) => {
     }
 };
 
-handler.command = /^madara$/i;
+handler.command = /^chri$/i;
 handler.group = true;
 handler.botAdmin = true;
 export default handler;
