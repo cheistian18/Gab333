@@ -530,7 +530,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `⠀ ꙰ 𝟥𝟥𝟥 ꙰ 𝔹𝕆𝕋 ꙰  `
+  const bio = `𝓢𝓝𝓐𝓚𝓔 𝓑𝓞𝓣 `
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
