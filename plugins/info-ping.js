@@ -41,7 +41,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const who = mention || m.sender;
   const user = global.db.data.users[who];
   const image = fs.readFileSync('./icone/ping.png');
-  let nomeDelBot = global.db.data.nomedelbot || ' ꙰ 𝟥𝟥𝟥 𝔹𝕆𝕋  ꙰⇝';
+  let nomeDelBot = global.db.data.nomedelbot || '𝓒𝓱𝓻𝓲';
   const prova = {
     key: { participants: "0@s.whatsapp.net", fromMe: false, id: "Halo" },
     message: { documentMessage: { title: `${nomeDelBot} 𝐏𝕀𝐍𝐆 🏓`, jpegThumbnail: image } },
